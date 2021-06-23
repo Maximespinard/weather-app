@@ -1,0 +1,4 @@
+
+// GET https://api.openweathermap.org/data/2.5/weather?q=perpignan&units=metric&appid=0591bfadad053372d5e73bb5001ff628
+ GET https://api.openweathermap.org/data/2.5/onecall?lat=42.688660&lon=2.894833&exclude=minutely&units=metric&&appid=0591bfadad053372d5e73bb5001ff628
+// GET http://openweathermap.org/img/w/${icon}.png
