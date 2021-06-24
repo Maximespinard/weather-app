@@ -1,0 +1,17 @@
+.app {
+  background: rgb(110, 63, 152);
+  background: linear-gradient(
+    177deg,
+    rgba(110, 63, 152, 1) 0%,
+    rgba(147, 103, 153, 1) 50%,
+    rgba(201, 157, 151, 1) 100%
+  );
+  min-height: 100vh;
+  padding: 0 $sm;
+}
+
+@media screen and(min-width: 600px) {
+  .app {
+    padding: 0 7em;
+  }
+}

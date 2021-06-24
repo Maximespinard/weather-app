@@ -1,0 +1,33 @@
+.topSection {
+  background-color: #704298;
+  margin: 0 -1em;
+  padding: $sm $sm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 40px;
+    cursor: pointer;
+  }
+  input {
+    width: 60%;
+    background: hsla(0, 0%, 100%, 0.1);
+    border: none;
+    border-radius: 20px;
+    padding: 0 5px;
+    text-align: center;
+    color: white;
+    outline: none;
+    height: 30px;
+  }
+  span {
+    cursor: pointer;
+  }
+}
+
+@media screen and(min-width: $bp) {
+  .topSection {
+    margin: 0 -7em;
+    padding: $sm 7em;
+  }
+}

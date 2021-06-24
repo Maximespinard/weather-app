@@ -1,11 +1,9 @@
 import React from 'react';
-import { Typography } from '@material-ui/core';
+import TopSection from '../TopSection';
 
 const App = () => (
-  <div>
-    <Typography variant="h1" component="h2">
-      h1. Heading
-    </Typography>
+  <div className="app">
+    <TopSection />
   </div>
 );
 
