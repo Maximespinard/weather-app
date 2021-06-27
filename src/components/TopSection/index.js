@@ -10,7 +10,7 @@ import Burger from '../Svgs/Burger';
 const TopSection = () => (
   <header className="topSection">
     <img alt="weather-app" src={Logo} />
-    <input type="text" defaultValue="Météo Elne, Pyrénnés-Orientales" />
+    <input type="text" defaultValue="Météo Elne, Pyrénnées-Orientales" />
     <span>
       <Burger />
     </span>

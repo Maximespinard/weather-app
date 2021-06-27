@@ -1,5 +1,8 @@
 @import './variables.scss';
+@import './mixins';
+@import './fonts';
 
 //components
 @import '../components/App/app.scss';
 @import '../components/TopSection/topSection.scss';
+@import '../components/WeatherRecap/weatherRecap.scss';

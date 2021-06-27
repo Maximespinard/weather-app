@@ -1,0 +1,11 @@
+@mixin boxView() {
+  border-radius: 6px;
+  padding: 16px;
+  margin: 12px 0px;
+  background: hsla(0, 0%, 100%, 0.1) !important;
+  header {
+    h2 {
+      font-size: 1.125em;
+    }
+  }
+}
